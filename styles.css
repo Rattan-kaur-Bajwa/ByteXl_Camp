@@ -1,0 +1,16 @@
+.box{
+  height: 300px;
+  width: 300px;
+  /* background-color: aqua; */
+  border: 2px solid red;
+  margin: 40px;
+}
+
+#root {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; /* Use this instead of justify-items */
+  justify-content: center; /* Optional: vertical centering */
+  height: 100vh;
+}
+
